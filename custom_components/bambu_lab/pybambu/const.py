@@ -165,7 +165,14 @@ FILAMENT_NAMES = {
     "GFU00": "Bambu TPU 95A HF",
     # Custom filament
     "P42b3ffe": "ALIZ PETG 高速",
-    "P911293d": "ALIZ PETG 金属"
+    "P911293d": "ALIZ PETG 金属",
+    "P583798d": "Kexcelled PETG K5",
+    "P8f1e3dc": "Kexcelled PLA K5",
+    "Pe0deea8": "Kexcelled PLA K5M",
+    "P7627d77": "Kexcelled PLA K5Sparkle",
+    "P8da5044": "Kexcelled TPU K7 85A",
+    "P18d3135": "Kexcelled TPU K7 95A",
+    "Pdfa3651": "Tinmorry PETG ECO"
 }
 
 # TODO: Update error lists with data from https://e.bambulab.com/query.php?lang=en
