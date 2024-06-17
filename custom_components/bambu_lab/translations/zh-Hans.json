@@ -279,7 +279,7 @@
         "name": "Gcode 文件名"
       },
       "print_bed_type": {
-        "name": "打印床型",
+        "name": "打印板类型",
         "state": {
           "textured_plate": "纹理PEI打印版",
           "cool_plate": "低温打印板/PLA打印板",
