@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "minor_version": 5,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {"area_id":null,"config_entries":["8b04f917c92d5e4447898c4098e88e45"],"configuration_url":null,"connections":[],"disabled_by":null,"entry_type":null,"hw_version":"AP04","id":"5f8d0d58480c550b5c9d91ecac105289","identifiers":[["bambu_lab","01P00A411200789"]],"labels":[],"manufacturer":"Bambu Lab","model":"P1S","name_by_user":null,"name":"P1S_01P00A411200789","serial_number":null,"sw_version":"01.05.02.00","via_device_id":null},
+      {"area_id":null,"config_entries":["8b04f917c92d5e4447898c4098e88e45"],"configuration_url":null,"connections":[],"disabled_by":null,"entry_type":null,"hw_version":"","id":"e8be1fe45bf05e00af9a571a75c58fe2","identifiers":[["bambu_lab","01P00A411200789_ExternalSpool"]],"labels":[],"manufacturer":"Bambu Lab","model":"External Spool","name_by_user":null,"name":"P1S_01P00A411200789_ExternalSpool","serial_number":null,"sw_version":"","via_device_id":"5f8d0d58480c550b5c9d91ecac105289"},
+      {"area_id":null,"config_entries":["8b04f917c92d5e4447898c4098e88e45"],"configuration_url":null,"connections":[],"disabled_by":null,"entry_type":null,"hw_version":"AMS08","id":"8d49a44cc01a8988ed60fed814346de8","identifiers":[["bambu_lab","00600A410216523"]],"labels":[],"manufacturer":"Bambu Lab","model":"AMS","name_by_user":null,"name":"P1S_01P00A411200789_AMS_1","serial_number":null,"sw_version":"00.00.06.40","via_device_id":"5f8d0d58480c550b5c9d91ecac105289"},
+      {"area_id":null,"config_entries":["8b04f917c92d5e4447898c4098e88e45"],"configuration_url":null,"connections":[],"disabled_by":null,"entry_type":null,"hw_version":"AMS08","id":"59b37a809e9a5db06d035ce1db97cdd5","identifiers":[["bambu_lab","00600A411800998"]],"labels":[],"manufacturer":"Bambu Lab","model":"AMS","name_by_user":null,"name":"P1S_01P00A411200789_AMS_2","serial_number":null,"sw_version":"00.00.06.40","via_device_id":"5f8d0d58480c550b5c9d91ecac105289"},
+      {"area_id":null,"config_entries":["8b04f917c92d5e4447898c4098e88e45"],"configuration_url":null,"connections":[],"disabled_by":null,"entry_type":null,"hw_version":"AMS08","id":"fb35f3f47b8cd1d89145071f14c70760","identifiers":[["bambu_lab","00600A430908567"]],"labels":[],"manufacturer":"Bambu Lab","model":"AMS","name_by_user":null,"name":"P1S_01P00A411200789_AMS_3","serial_number":null,"sw_version":"00.00.06.40","via_device_id":"5f8d0d58480c550b5c9d91ecac105289"},
+      {"area_id":null,"config_entries":["1514bb88bd3a547ae473e1003c132620"],"configuration_url":null,"connections":[],"disabled_by":null,"entry_type":"service","hw_version":null,"id":"5d6036d08e408e6ddd33973f21a39952","identifiers":[["sun","1514bb88bd3a547ae473e1003c132620"]],"labels":[],"manufacturer":null,"model":null,"name_by_user":null,"name":"Sun","serial_number":null,"sw_version":null,"via_device_id":null}
+    ],
+    "deleted_devices": [
+      {"config_entries":[],"connections":[["bluetooth","00:00:00:00:00:00"]],"identifiers":[],"id":"9c7376e00084b0f52a5a15e44544dd8d","orphaned_timestamp":1713842869.6508641},
+      {"config_entries":[],"connections":[],"identifiers":[["sun","417d36bc2b775f2c26a5361a133fee2e"]],"id":"63a5fdd6b94208e5a59ed11d2e8b72c9","orphaned_timestamp":1713842949.760538},
+      {"config_entries":[],"connections":[],"identifiers":[["met","fdeb05e602bf769e801f821e03275f91"]],"id":"1989f277928d90374278e48520708860","orphaned_timestamp":1713842954.262017}
+    ]
+  }
+}
