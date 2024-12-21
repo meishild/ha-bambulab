@@ -1,5 +1,93 @@
+### V2.0.39
+- 
+
+### V2.0.38
+- Fix to handle authentication changes in China
+- Improved Spanish translations
+- Cleanup device trigger events and add print error device trigger events
+- Update filament list
+- Update errors list
+
+### V2.0.37
+- Switch back to cloudscraper from curl_cffi as Bambu cloudflare has stopped blocking it
+- Re-enable custom filament retrieval
+- Cleanup all the rapid login flow changes to be exception based and more maintainable
+- Update translations
+
+### V2.0.36
+- Reuse credentials from other instances to streamline multiple printer setup
+- Disable custom filament retrieval in case it's contributing to cloudflare woes
+- Add image camera back with switch to use that
+- Add switch to disable camera
+
+### V2.0.35
+- Switch to dictionary for initialization settings
+- Allow cameras to be turned off
+- Use working credentials from other integration instances if present
+
+### V2.0.34
+- Update translations for new strings
+- Fix off by one error in print weight attributes
+- Set curl_cffi to impersonate Chrome
+
+### V2.0.33
+- Switch to curl_cffi to get past cloudflare
+- Fix greek localization filename
+
+### V2.0.32
+- Fix error when printer IP address isn't provided due to incorrect logging addition
+
+### V2.0.31
+- Fix China phone login
+
+### V2.0.30
+- Switch to cloudscraper to address cloudflare issues
+- Fix another 2FA bug.
+- Fix tag_uid
+- Miscellaneous improvements
+
+### V2.0.29
+- Fix 2FA bug
+
+### V2.0.28
+- Adds 2FA and email code
+- Added back tag_uuid
+- Corrected greek localization file naming
+- Fix blocking error if the printer is running in pure Bambu cloud mode
+
+### V2.0.27
+- Fix disconnect from printer at end of print.
+- Suppress remaining filament attribute on AMS Lite as it doesn't get reported.
+- Switch to tray_uuid to match Bambu Studio (to come - add back tag_uuid to match Bambu Handy)
+- Cleanly handle AMS being removed and/or added after integation is set up.
+- Add German localization
+- Fix HA complaint about blocking SSL lookup
+- Improve header generation on REST calls
+- Hide aux fan on A1 printers since they don't have it
+- Don't tie end time availability to whether we have a start time available to us.
+- Miscellaneous minor fixes
+
+### V2.0.26
+- Add Greek translation
+- Fix regression in error sensor never turning off
+- Update contribution rules
+
+### V2.0.25
+- Re-enable slicer settings with fix and improved resilience to http errors
+- More authentication fixes
+- Fix blocking IO warning for MQTT TLS setup
+- Miscellaneous fixes
+
+### V2.0.24
+- Disable slicer settings retrieval as it is getting access denied and breaking the integration.
+
+### V2.0.23
+- Fix cloud connection to meet cloudfare requirement for HTTP2.0 thanks to @TheDuffman85
+- Miscellaneous fixes
+- Bump min version of HA to 24.8.1
+
 ### V2.0.22
--
+- Miscellaneous fixes
 
 ### V2.0.21
 - Fix syntax error in RTSP URL redaction.

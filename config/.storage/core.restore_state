@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"person.admin","state":"unknown","attributes":{"editable":true,"id":"admin","user_id":"f73d5d9dd45d49868a44520e2c45aebb","device_trackers":[],"friendly_name":"admin"},"last_changed":"2024-05-09T02:35:10.396802+00:00","last_reported":"2024-05-09T02:35:11.974715+00:00","last_updated":"2024-05-09T02:35:11.974715+00:00","context":{"id":"01HXDK8SQ69FM4S0MW4RZZ1YM0","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-05-09T02:35:12.002016+00:00"
+    },
+    {
+      "state": {"entity_id":"button.p1s_01p00a411200789_pause_printing","state":"unavailable","attributes":{"icon":"mdi:pause","friendly_name":"P1S_01P00A411200789 暂停打印"},"last_changed":"2024-05-09T02:35:11.862211+00:00","last_reported":"2024-05-09T02:35:11.862211+00:00","last_updated":"2024-05-09T02:35:11.862211+00:00","context":{"id":"01HXDK8SKPG3PY8JN0Z25D639G","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-05-09T02:35:12.002016+00:00"
+    },
+    {
+      "state": {"entity_id":"button.p1s_01p00a411200789_resume_printing","state":"unavailable","attributes":{"icon":"mdi:play","friendly_name":"P1S_01P00A411200789 恢复打印"},"last_changed":"2024-05-09T02:35:11.862510+00:00","last_reported":"2024-05-09T02:35:11.862510+00:00","last_updated":"2024-05-09T02:35:11.862510+00:00","context":{"id":"01HXDK8SKPZ31XT244BZVK2EMR","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-05-09T02:35:12.002016+00:00"
+    },
+    {
+      "state": {"entity_id":"button.p1s_01p00a411200789_stop_printing","state":"unavailable","attributes":{"icon":"mdi:stop","friendly_name":"P1S_01P00A411200789 停止打印"},"last_changed":"2024-05-09T02:35:11.862823+00:00","last_reported":"2024-05-09T02:35:11.862823+00:00","last_updated":"2024-05-09T02:35:11.862823+00:00","context":{"id":"01HXDK8SKPWJ61BHP4PG6Y24QX","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-05-09T02:35:12.002016+00:00"
+    },
+    {
+      "state": {"entity_id":"button.p1s_01p00a411200789_force_refresh_data","state":"unknown","attributes":{"icon":"mdi:refresh","friendly_name":"P1S_01P00A411200789 强制刷新数据"},"last_changed":"2024-05-09T02:35:11.863143+00:00","last_reported":"2024-05-09T02:35:11.863143+00:00","last_updated":"2024-05-09T02:35:11.863143+00:00","context":{"id":"01HXDK8SKQ8HZTZFQGNZM2QKT8","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-05-09T02:35:12.002016+00:00"
+    }
+  ]
+}

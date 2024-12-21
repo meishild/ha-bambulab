@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "8b04f917c92d5e4447898c4098e88e45",
+        "version": 2,
+        "minor_version": 1,
+        "domain": "bambu_lab",
+        "title": "01P00A411200789",
+        "data": {
+          "device_type": "P1S",
+          "serial": "01P00A411200789"
+        },
+        "options": {
+          "region": "China",
+          "email": "17767109986",
+          "username": "u_4069111137",
+          "name": "3DP-01P-789",
+          "host": "",
+          "local_mqtt": false,
+          "auth_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJQUGZuRjNKbEY4eG9sRnhzQmhhYlN5cWp3b3puWi1LRUFPS1Z1Qy1yV2EwIn0.eyJleHAiOjE3MjE2MTg2NDMsImlhdCI6MTcxMzg0MjY0MywianRpIjoiNWY1NGIzNjctY2RmZS00ZWI0LWEzYzgtYjFhMWViYTVlYzQ1IiwiaXNzIjoiaHR0cDovL2tleWNsb2FrLWh0dHAua2V5Y2xvYWstcHJvZC1jbi9hdXRoL3JlYWxtcy9iYmwiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMmI4NGU1ODktMTVkOS00NjAxLTk5ZjItYjcxMDEyZDFjYjUxIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoidXNlci1zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6IjBjODJhNWQzLTIzMGItNDE3Yi04YTAzLTM2YmY0ZWU2MGU4ZiIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtYmJsIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiIwYzgyYTVkMy0yMzBiLTQxN2ItOGEwMy0zNmJmNGVlNjBlOGYiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6IjQwNjkxMTExMzciLCJ1c2VybmFtZSI6InVfNDA2OTExMTEzNyJ9.X5Y_jYqAZrl4eyM9rMiG8efD9RxqdOjL9_92aByJI-yMIBKYzyTqJuYyY0yZJzk4Xjsw8Se3X8NCC7ES7iokVcL7RI1PtAOuQZv1VpH2f6aDPYltQU-ZqTsQq6K3MP_-LaFmHKfu1sljsM02pEAs4X_avRnKVNMmqeSZ3CN9nVdPOsBQLsKvocSGS_CZgF6ch3VO34ZW1UkPAUrga6bOYcEbjIFN4t5Uv-o1SooSV-6jq1_d68VL_lj6yKvfspSdjmJqqdBgmNFFJuv1_KLHVNGuqP7LzrwE_w8zY183yKWlWzjVxsoQSEu6ZwO4-NETQFrlkxcMgXugUxfOF0KOig",
+          "access_code": "63128462",
+          "usage_hours": 0.0
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f897321f7f45ea39c9a1fe53ad5e165e",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "bluetooth",
+        "title": "Core Bluetooth",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "00:00:00:00:00:00",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ac5e1f7bcf377fee6d7dc9311631c3eb",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "apple_tv",
+        "title": "4-12 (Apple TV 3)",
+        "data": {
+          "address": "10.23.102.252",
+          "identifiers": [
+            "6e:ab:90:4d:ae:3b",
+            "6eab904dae3b"
+          ]
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "6e:ab:90:4d:ae:3b",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ba7cc85ee278781dfd8e7e33d3838e86",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "apple_tv",
+        "title": "4-15 火云洞 (Apple TV 3)",
+        "data": {
+          "address": "10.23.102.1",
+          "identifiers": [
+            "BC14EFDB919C",
+            "BC:14:EF:DB:91:9C"
+          ]
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "BC:14:EF:DB:91:9C",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1514bb88bd3a547ae473e1003c132620",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      }
+    ]
+  }
+}

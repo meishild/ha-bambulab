@@ -8,10 +8,10 @@ A Home Assistant Integration for Bambu Lab printers.
 
 Want to contribute to ha-bambulab? Great! We have a few small asks though!
 
-- Please do not fork and PR against the `main` branch.
-- Use the `develop` branch, this is our working area. Anything in the `main` branch should be considered live, released
-  code.
+- Please create your patch PRs against the `main` branch.
 - Please name your commits accordingly, and add some context as to what you have added.
+
+NOTE - we did previously use a separate `develop` branch for staging initial checkins. This is being retired.
 
 If you feel this integration was valuable and want to support it in other ways, you can [buy me a coffee](https://Ko-fi.com/adriangarside).
 
@@ -161,7 +161,7 @@ instead of OAuth.
 
 | Sensor  | Notes                                                           |
 | ------- | --------------------------------------------------------------- |
-| Chamber | P1/A1 - need the host IP providing                              |
+| Chamber | P1/A1/A1Mini - need the host IP providing                       |
 |         | X1    - Make sure to enable "LAN Mode LiveView" on your printer |
 
 ### Automation device triggers
@@ -169,22 +169,10 @@ instead of OAuth.
 This integration implements a handful of device triggers to make some common automation scenarios a little easier.
 See [device triggers](docs/DeviceTrigger.md).
 
-### WLED Lights
+### Actions
 
-Support for adding LED chamber lights via the [WLED](https://kno.wled.ge/) project.
-
-- Requires the [WLED Home Assistant Integration](https://www.home-assistant.io/integrations/wled/) and the requisite LED
-  lights and ESP device.
-- Clink the link below to import the WLED blueprint
-
-[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Fgreghesp%2Fha-bambulab%2Fblob%2Fmain%2Fblueprints%2Fwled_controller.yaml)
-
-#### WLED Features
-
-- LED lights automatically turn off when Bambu Lidar is in use, so as to not interfere.
-- LED lights turn red when there is an error in the printer.
-- LED lights turn blue when the bed is auto leveling.
-- LED lights turn green when printing is finished.
+* **Send Command**: Sends arbitrary GCODE to the printer. Be careful as it does not check if the printer is running a job
+or not so before invoking this action, you should check the printer state to ensure it is not running a job.
 
 ## Example dashboard
 
@@ -209,7 +197,18 @@ Make sure you upload this to your Bug ticket/GitHub issue.
 
 ### Debug Logging
 
-When logging a bug, always ensure you send us the debug logs. These can be enabled from the Integration page itself.
-The debug logs will appear in the standard Home Assistant logs.
+When logging a bug, always ensure you send us the debug logs. 
+
+If you are hitting issues during initial integration setup, you will need to enable logs in your configuration.yaml file by adding the following and restarting Home Assistant:
+```
+logger:
+  default: info
+  logs:
+    custom_components.bambu_lab: debug
+```
+
+If you have previously successfully installed the integration, debug logs can be enabled from the integration page within Home Assistant:
 
 ![img.png](docs/images/debugging.png)
+
+The debug logs will appear in the standard Home Assistant logs.
