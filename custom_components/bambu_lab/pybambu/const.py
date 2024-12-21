@@ -118,6 +118,7 @@ FILAMENT_NAMES = {
     "GFC00": "Bambu PC",
     "GFT01": "Bambu PET-CF",
     "GFG00": "Bambu PETG Basic",
+    "GFG01": "Bambu PETG Translucent",
     "GFG50": "Bambu PETG-CF",
     "GFA11": "Bambu PLA Aero",
     "GFA00": "Bambu PLA Basic",
